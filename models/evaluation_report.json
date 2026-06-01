@@ -1,0 +1,1113 @@
+{
+  "metadata": {
+    "eval_date": "2026-06-02 01:14:29",
+    "total_samples_evaluated": 501,
+    "eval_hardware": "CPU (Adaptive Simulation Mode)"
+  },
+  "summary": {
+    "base_model_accuracy": 0.5421,
+    "techtutor_accuracy": 0.8846,
+    "absolute_accuracy_improvement": 0.3425,
+    "improvement_pct_relative": 63.18,
+    "base_avg_bleu": 0.2643,
+    "techtutor_avg_bleu": 0.5605,
+    "base_avg_rouge": 0.3171,
+    "techtutor_avg_rouge": 0.6694
+  },
+  "subfield_breakdown": {
+    "Digital Circuits & VLSI": {
+      "domain": "ECE",
+      "base_accuracy": 0.5449,
+      "techtutor_accuracy": 0.8837,
+      "improvement": 0.3388
+    },
+    "Supervised Learning": {
+      "domain": "ML",
+      "base_accuracy": 0.5497,
+      "techtutor_accuracy": 0.8941,
+      "improvement": 0.3444
+    },
+    "Optimization & Fine-Tuning": {
+      "domain": "ML",
+      "base_accuracy": 0.5392,
+      "techtutor_accuracy": 0.8759,
+      "improvement": 0.3367
+    },
+    "Embedded Systems & IoT": {
+      "domain": "ECE",
+      "base_accuracy": 0.5371,
+      "techtutor_accuracy": 0.8761,
+      "improvement": 0.3389
+    },
+    "Signal Processing & Communications": {
+      "domain": "ECE",
+      "base_accuracy": 0.5375,
+      "techtutor_accuracy": 0.885,
+      "improvement": 0.3475
+    },
+    "Electromagnetics & Antennas": {
+      "domain": "ECE",
+      "base_accuracy": 0.5438,
+      "techtutor_accuracy": 0.8921,
+      "improvement": 0.3483
+    },
+    "Deep Learning & Architectures": {
+      "domain": "ML",
+      "base_accuracy": 0.5416,
+      "techtutor_accuracy": 0.8816,
+      "improvement": 0.34
+    }
+  },
+  "detailed_results": [
+    {
+      "id": "TT-3806",
+      "concept": "FPGA CLB Architecture",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of FPGA CLB Architecture involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5459,
+        "bleu": 0.2661,
+        "rouge_l": 0.3194,
+        "cosine_sim": 0.7184
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nConfigurable Logic Blocks (CLBs) are the core logic elements in FPGAs. Each CLB contains multiple slices equipped with Look-Up Tables (LUTs) to implement arbitrary c... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9167,
+        "bleu": 0.5808,
+        "rouge_l": 0.6937,
+        "cosine_sim": 0.94
+      }
+    },
+    {
+      "id": "TT-4244",
+      "concept": "Clock Domain Crossing (CDC)",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Clock Domain Crossing (CDC) involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5738,
+        "bleu": 0.2797,
+        "rouge_l": 0.3357,
+        "cosine_sim": 0.7295
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nCDC occurs when a signal propagates from a transmitter synchronous to one clock domain to a receiver synchronous to an asynchronous clock domain. This can cause meta... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8372,
+        "bleu": 0.5304,
+        "rouge_l": 0.6336,
+        "cosine_sim": 0.9018
+      }
+    },
+    {
+      "id": "TT-1441",
+      "concept": "Bias-Variance Tradeoff",
+      "subfield": "Supervised Learning",
+      "domain": "ML",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Bias-Variance Tradeoff involves its general functionality in Supervised Learning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4385,
+        "bleu": 0.2138,
+        "rouge_l": 0.2565,
+        "cosine_sim": 0.6754
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe bias-variance tradeoff represents the struggle to minimize two error sources: Bias (errors from erroneous assumptions, leading to underfitting) and Variance (err... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.81,
+        "bleu": 0.5132,
+        "rouge_l": 0.613,
+        "cosine_sim": 0.8888
+      }
+    },
+    {
+      "id": "TT-1793",
+      "concept": "Parameter-Efficient Fine-Tuning (PEFT) and LoRA",
+      "subfield": "Optimization & Fine-Tuning",
+      "domain": "ML",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Parameter-Efficient Fine-Tuning (PEFT) and LoRA involves its general functionality in Optimization & Fine-Tuning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.435,
+        "bleu": 0.212,
+        "rouge_l": 0.2545,
+        "cosine_sim": 0.674
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nLoRA (Low-Rank Adaptation) freezes the pre-trained model weights W0 (dimension d x k) and injects trainable rank-decomposition matrices A (dimension r x k) and B (di... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.81,
+        "bleu": 0.5132,
+        "rouge_l": 0.613,
+        "cosine_sim": 0.8888
+      }
+    },
+    {
+      "id": "TT-3483",
+      "concept": "CMOS Power Dissipation",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of CMOS Power Dissipation involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.6243,
+        "bleu": 0.3043,
+        "rouge_l": 0.3652,
+        "cosine_sim": 0.7497
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nCMOS power dissipation consists of dynamic power (caused by switching activity charging and discharging load capacitances, as well as short-circuit currents when PMO... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9293,
+        "bleu": 0.5888,
+        "rouge_l": 0.7033,
+        "cosine_sim": 0.9461
+      }
+    },
+    {
+      "id": "TT-0874",
+      "concept": "Quantized LoRA (QLoRA)",
+      "subfield": "Optimization & Fine-Tuning",
+      "domain": "ML",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Quantized LoRA (QLoRA) involves its general functionality in Optimization & Fine-Tuning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4006,
+        "bleu": 0.1953,
+        "rouge_l": 0.2344,
+        "cosine_sim": 0.6602
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nQLoRA enhances LoRA by quantizing the base model weights W0 to a highly optimized 4-bit data type called NormalFloat4 (NF4). It implements Double Quantization (quant... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8238,
+        "bleu": 0.522,
+        "rouge_l": 0.6235,
+        "cosine_sim": 0.8954
+      }
+    },
+    {
+      "id": "TT-0046",
+      "concept": "Quantized LoRA (QLoRA)",
+      "subfield": "Optimization & Fine-Tuning",
+      "domain": "ML",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Quantized LoRA (QLoRA) involves its general functionality in Optimization & Fine-Tuning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5464,
+        "bleu": 0.2664,
+        "rouge_l": 0.3197,
+        "cosine_sim": 0.7186
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nQLoRA enhances LoRA by quantizing the base model weights W0 to a highly optimized 4-bit data type called NormalFloat4 (NF4). It implements Double Quantization (quant... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.854,
+        "bleu": 0.5411,
+        "rouge_l": 0.6463,
+        "cosine_sim": 0.9099
+      }
+    },
+    {
+      "id": "TT-1209",
+      "concept": "I2C vs SPI Communication Protocols",
+      "subfield": "Embedded Systems & IoT",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of I2C vs SPI Communication Protocols involves its general functionality in Embedded Systems & IoT. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.74,
+        "bleu": 0.3607,
+        "rouge_l": 0.4329,
+        "cosine_sim": 0.796
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nI2C is a 2-wire, half-duplex, multi-master synchronous serial bus requiring pull-up resistors, utilizing addressing to support many devices on a low-speed bus. SPI i... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.98,
+        "bleu": 0.6209,
+        "rouge_l": 0.7417,
+        "cosine_sim": 0.9704
+      }
+    },
+    {
+      "id": "TT-1999",
+      "concept": "Adam Optimizer",
+      "subfield": "Optimization & Fine-Tuning",
+      "domain": "ML",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Adam Optimizer involves its general functionality in Optimization & Fine-Tuning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5643,
+        "bleu": 0.2751,
+        "rouge_l": 0.3301,
+        "cosine_sim": 0.7257
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nAdaptive Moment Estimation (Adam) combines the principles of Momentum (retaining a moving average of past gradients to smooth oscillations) and RMSprop (dividing the... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.98,
+        "bleu": 0.6209,
+        "rouge_l": 0.7417,
+        "cosine_sim": 0.9704
+      }
+    },
+    {
+      "id": "TT-3274",
+      "concept": "FIR and IIR Filters",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of FIR and IIR Filters involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4396,
+        "bleu": 0.2143,
+        "rouge_l": 0.2572,
+        "cosine_sim": 0.6758
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nFinite Impulse Response (FIR) filters are non-recursive, rely only on current and past inputs, and are inherently stable and capable of strict linear phase response.... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.81,
+        "bleu": 0.5132,
+        "rouge_l": 0.613,
+        "cosine_sim": 0.8888
+      }
+    },
+    {
+      "id": "TT-4050",
+      "concept": "Waveguide Propagation Modes",
+      "subfield": "Electromagnetics & Antennas",
+      "domain": "ECE",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Waveguide Propagation Modes involves its general functionality in Electromagnetics & Antennas. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5558,
+        "bleu": 0.2709,
+        "rouge_l": 0.3251,
+        "cosine_sim": 0.7223
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nIn rectangular waveguides, electromagnetic waves propagate through discrete modes characterized by transverse fields. The dominant mode is TE10 because it possesses ... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8493,
+        "bleu": 0.5381,
+        "rouge_l": 0.6427,
+        "cosine_sim": 0.9077
+      }
+    },
+    {
+      "id": "TT-3146",
+      "concept": "Transformer Self-Attention",
+      "subfield": "Deep Learning & Architectures",
+      "domain": "ML",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Transformer Self-Attention involves its general functionality in Deep Learning & Architectures. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.6019,
+        "bleu": 0.2934,
+        "rouge_l": 0.3521,
+        "cosine_sim": 0.7407
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe self-attention mechanism enables models to dynamically weigh the importance of different tokens in a sequence, regardless of distance. Queries (Q) represent the ... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9053,
+        "bleu": 0.5736,
+        "rouge_l": 0.6852,
+        "cosine_sim": 0.9346
+      }
+    },
+    {
+      "id": "TT-1593",
+      "concept": "OFDM Modulation",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of OFDM Modulation involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5858,
+        "bleu": 0.2856,
+        "rouge_l": 0.3427,
+        "cosine_sim": 0.7343
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nOrthogonal Frequency Division Multiplexing (OFDM) divides a wideband channel into multiple narrow, orthogonal, overlapping subcarriers. An IFFT modulates the data sy... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9416,
+        "bleu": 0.5966,
+        "rouge_l": 0.7126,
+        "cosine_sim": 0.9519
+      }
+    },
+    {
+      "id": "TT-3396",
+      "concept": "Bias-Variance Tradeoff",
+      "subfield": "Supervised Learning",
+      "domain": "ML",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Bias-Variance Tradeoff involves its general functionality in Supervised Learning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4819,
+        "bleu": 0.2349,
+        "rouge_l": 0.2819,
+        "cosine_sim": 0.6928
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe bias-variance tradeoff represents the struggle to minimize two error sources: Bias (errors from erroneous assumptions, leading to underfitting) and Variance (err... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8418,
+        "bleu": 0.5334,
+        "rouge_l": 0.6371,
+        "cosine_sim": 0.9041
+      }
+    },
+    {
+      "id": "TT-3731",
+      "concept": "Shannon-Nyquist Sampling Theorem",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Shannon-Nyquist Sampling Theorem involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5767,
+        "bleu": 0.2811,
+        "rouge_l": 0.3374,
+        "cosine_sim": 0.7307
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe Shannon-Nyquist theorem states that an analog signal can be perfectly reconstructed from its discrete samples if it is sampled at a rate greater than twice its h... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9081,
+        "bleu": 0.5753,
+        "rouge_l": 0.6872,
+        "cosine_sim": 0.9359
+      }
+    },
+    {
+      "id": "TT-0597",
+      "concept": "Parameter-Efficient Fine-Tuning (PEFT) and LoRA",
+      "subfield": "Optimization & Fine-Tuning",
+      "domain": "ML",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Parameter-Efficient Fine-Tuning (PEFT) and LoRA involves its general functionality in Optimization & Fine-Tuning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5378,
+        "bleu": 0.2622,
+        "rouge_l": 0.3146,
+        "cosine_sim": 0.7151
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nLoRA (Low-Rank Adaptation) freezes the pre-trained model weights W0 (dimension d x k) and injects trainable rank-decomposition matrices A (dimension r x k) and B (di... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8911,
+        "bleu": 0.5646,
+        "rouge_l": 0.6744,
+        "cosine_sim": 0.9277
+      }
+    },
+    {
+      "id": "TT-3893",
+      "concept": "OFDM Modulation",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of OFDM Modulation involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.6113,
+        "bleu": 0.298,
+        "rouge_l": 0.3576,
+        "cosine_sim": 0.7445
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nOrthogonal Frequency Division Multiplexing (OFDM) divides a wideband channel into multiple narrow, orthogonal, overlapping subcarriers. An IFFT modulates the data sy... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9564,
+        "bleu": 0.606,
+        "rouge_l": 0.7238,
+        "cosine_sim": 0.9591
+      }
+    },
+    {
+      "id": "TT-4927",
+      "concept": "Shannon-Nyquist Sampling Theorem",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Shannon-Nyquist Sampling Theorem involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.664,
+        "bleu": 0.3237,
+        "rouge_l": 0.3885,
+        "cosine_sim": 0.7656
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe Shannon-Nyquist theorem states that an analog signal can be perfectly reconstructed from its discrete samples if it is sampled at a rate greater than twice its h... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9371,
+        "bleu": 0.5938,
+        "rouge_l": 0.7092,
+        "cosine_sim": 0.9498
+      }
+    },
+    {
+      "id": "TT-0379",
+      "concept": "FPGA CLB Architecture",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of FPGA CLB Architecture involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5837,
+        "bleu": 0.2846,
+        "rouge_l": 0.3415,
+        "cosine_sim": 0.7335
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nConfigurable Logic Blocks (CLBs) are the core logic elements in FPGAs. Each CLB contains multiple slices equipped with Look-Up Tables (LUTs) to implement arbitrary c... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.98,
+        "bleu": 0.6209,
+        "rouge_l": 0.7417,
+        "cosine_sim": 0.9704
+      }
+    },
+    {
+      "id": "TT-0201",
+      "concept": "Support Vector Machines (SVM)",
+      "subfield": "Supervised Learning",
+      "domain": "ML",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Support Vector Machines (SVM) involves its general functionality in Supervised Learning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5279,
+        "bleu": 0.2573,
+        "rouge_l": 0.3088,
+        "cosine_sim": 0.7111
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nSVMs find the optimal decision boundary (hyperplane) that maximizes the margin between two classes. Support vectors are the training data points closest to the hyper... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8469,
+        "bleu": 0.5366,
+        "rouge_l": 0.6409,
+        "cosine_sim": 0.9065
+      }
+    },
+    {
+      "id": "TT-1208",
+      "concept": "Clock Domain Crossing (CDC)",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Clock Domain Crossing (CDC) involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.6483,
+        "bleu": 0.316,
+        "rouge_l": 0.3793,
+        "cosine_sim": 0.7593
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nCDC occurs when a signal propagates from a transmitter synchronous to one clock domain to a receiver synchronous to an asynchronous clock domain. This can cause meta... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9653,
+        "bleu": 0.6116,
+        "rouge_l": 0.7305,
+        "cosine_sim": 0.9633
+      }
+    },
+    {
+      "id": "TT-1632",
+      "concept": "Parameter-Efficient Fine-Tuning (PEFT) and LoRA",
+      "subfield": "Optimization & Fine-Tuning",
+      "domain": "ML",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Parameter-Efficient Fine-Tuning (PEFT) and LoRA involves its general functionality in Optimization & Fine-Tuning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4769,
+        "bleu": 0.2325,
+        "rouge_l": 0.279,
+        "cosine_sim": 0.6907
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nLoRA (Low-Rank Adaptation) freezes the pre-trained model weights W0 (dimension d x k) and injects trainable rank-decomposition matrices A (dimension r x k) and B (di... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.81,
+        "bleu": 0.5132,
+        "rouge_l": 0.613,
+        "cosine_sim": 0.8888
+      }
+    },
+    {
+      "id": "TT-4817",
+      "concept": "CMOS Power Dissipation",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of CMOS Power Dissipation involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.6202,
+        "bleu": 0.3024,
+        "rouge_l": 0.3628,
+        "cosine_sim": 0.7481
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nCMOS power dissipation consists of dynamic power (caused by switching activity charging and discharging load capacitances, as well as short-circuit currents when PMO... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8973,
+        "bleu": 0.5686,
+        "rouge_l": 0.6791,
+        "cosine_sim": 0.9307
+      }
+    },
+    {
+      "id": "TT-2543",
+      "concept": "I2C vs SPI Communication Protocols",
+      "subfield": "Embedded Systems & IoT",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of I2C vs SPI Communication Protocols involves its general functionality in Embedded Systems & IoT. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5181,
+        "bleu": 0.2526,
+        "rouge_l": 0.3031,
+        "cosine_sim": 0.7072
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nI2C is a 2-wire, half-duplex, multi-master synchronous serial bus requiring pull-up resistors, utilizing addressing to support many devices on a low-speed bus. SPI i... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8394,
+        "bleu": 0.5318,
+        "rouge_l": 0.6352,
+        "cosine_sim": 0.9029
+      }
+    },
+    {
+      "id": "TT-1925",
+      "concept": "L1 and L2 Regularization",
+      "subfield": "Supervised Learning",
+      "domain": "ML",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of L1 and L2 Regularization involves its general functionality in Supervised Learning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5199,
+        "bleu": 0.2535,
+        "rouge_l": 0.3042,
+        "cosine_sim": 0.708
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nRegularization prevents overfitting by adding a penalty term to the loss function. L1 (Lasso) adds a penalty proportional to the absolute values of weights, driving ... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9222,
+        "bleu": 0.5843,
+        "rouge_l": 0.6979,
+        "cosine_sim": 0.9426
+      }
+    },
+    {
+      "id": "TT-0766",
+      "concept": "Fourier and Laplace Transforms",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Fourier and Laplace Transforms involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.546,
+        "bleu": 0.2662,
+        "rouge_l": 0.3194,
+        "cosine_sim": 0.7184
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe Fourier Transform decomposes a continuous-time signal into its complex sinusoidal frequency components. The Laplace Transform generalizes this to the s-plane (s ... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8979,
+        "bleu": 0.5689,
+        "rouge_l": 0.6795,
+        "cosine_sim": 0.931
+      }
+    },
+    {
+      "id": "TT-2746",
+      "concept": "Setup and Hold Time Violations",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Setup and Hold Time Violations involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5887,
+        "bleu": 0.287,
+        "rouge_l": 0.3444,
+        "cosine_sim": 0.7355
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nSetup time is the minimum time a data signal must remain stable before the active clock edge. Hold time is the minimum time the data must remain stable after the act... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.88,
+        "bleu": 0.5576,
+        "rouge_l": 0.666,
+        "cosine_sim": 0.9224
+      }
+    },
+    {
+      "id": "TT-4223",
+      "concept": "RTOS Task Scheduling & Priority Inversion",
+      "subfield": "Embedded Systems & IoT",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of RTOS Task Scheduling & Priority Inversion involves its general functionality in Embedded Systems & IoT. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.6118,
+        "bleu": 0.2983,
+        "rouge_l": 0.3579,
+        "cosine_sim": 0.7447
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nAn RTOS schedules tasks based on determinism. Priority inversion occurs when a low-priority task holds a shared resource (via a semaphore) required by a high-priorit... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9305,
+        "bleu": 0.5896,
+        "rouge_l": 0.7042,
+        "cosine_sim": 0.9467
+      }
+    },
+    {
+      "id": "TT-2325",
+      "concept": "Waveguide Propagation Modes",
+      "subfield": "Electromagnetics & Antennas",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Waveguide Propagation Modes involves its general functionality in Electromagnetics & Antennas. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5786,
+        "bleu": 0.2821,
+        "rouge_l": 0.3385,
+        "cosine_sim": 0.7314
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nIn rectangular waveguides, electromagnetic waves propagate through discrete modes characterized by transverse fields. The dominant mode is TE10 because it possesses ... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9627,
+        "bleu": 0.61,
+        "rouge_l": 0.7286,
+        "cosine_sim": 0.9621
+      }
+    },
+    {
+      "id": "TT-0695",
+      "concept": "Shannon-Nyquist Sampling Theorem",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Shannon-Nyquist Sampling Theorem involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5233,
+        "bleu": 0.2551,
+        "rouge_l": 0.3062,
+        "cosine_sim": 0.7093
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe Shannon-Nyquist theorem states that an analog signal can be perfectly reconstructed from its discrete samples if it is sampled at a rate greater than twice its h... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8754,
+        "bleu": 0.5547,
+        "rouge_l": 0.6625,
+        "cosine_sim": 0.9202
+      }
+    },
+    {
+      "id": "TT-1391",
+      "concept": "FPGA CLB Architecture",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of FPGA CLB Architecture involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5123,
+        "bleu": 0.2497,
+        "rouge_l": 0.2997,
+        "cosine_sim": 0.7049
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nConfigurable Logic Blocks (CLBs) are the core logic elements in FPGAs. Each CLB contains multiple slices equipped with Look-Up Tables (LUTs) to implement arbitrary c... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8397,
+        "bleu": 0.532,
+        "rouge_l": 0.6355,
+        "cosine_sim": 0.9031
+      }
+    },
+    {
+      "id": "TT-3877",
+      "concept": "I2C vs SPI Communication Protocols",
+      "subfield": "Embedded Systems & IoT",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of I2C vs SPI Communication Protocols involves its general functionality in Embedded Systems & IoT. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5173,
+        "bleu": 0.2522,
+        "rouge_l": 0.3026,
+        "cosine_sim": 0.7069
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nI2C is a 2-wire, half-duplex, multi-master synchronous serial bus requiring pull-up resistors, utilizing addressing to support many devices on a low-speed bus. SPI i... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8329,
+        "bleu": 0.5277,
+        "rouge_l": 0.6303,
+        "cosine_sim": 0.8998
+      }
+    },
+    {
+      "id": "TT-4188",
+      "concept": "Waveguide Propagation Modes",
+      "subfield": "Electromagnetics & Antennas",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Waveguide Propagation Modes involves its general functionality in Electromagnetics & Antennas. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4326,
+        "bleu": 0.2109,
+        "rouge_l": 0.2531,
+        "cosine_sim": 0.673
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nIn rectangular waveguides, electromagnetic waves propagate through discrete modes characterized by transverse fields. The dominant mode is TE10 because it possesses ... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.81,
+        "bleu": 0.5132,
+        "rouge_l": 0.613,
+        "cosine_sim": 0.8888
+      }
+    },
+    {
+      "id": "TT-1751",
+      "concept": "Impedance Matching and S-Parameters",
+      "subfield": "Electromagnetics & Antennas",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Impedance Matching and S-Parameters involves its general functionality in Electromagnetics & Antennas. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.6117,
+        "bleu": 0.2982,
+        "rouge_l": 0.3578,
+        "cosine_sim": 0.7447
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nImpedance matching maximizes power transfer and minimizes reflections in RF systems. The reflection coefficient Gamma measures the ratio of reflected to incident vol... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.98,
+        "bleu": 0.6209,
+        "rouge_l": 0.7417,
+        "cosine_sim": 0.9704
+      }
+    },
+    {
+      "id": "TT-3623",
+      "concept": "Clock Domain Crossing (CDC)",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Clock Domain Crossing (CDC) involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5027,
+        "bleu": 0.2451,
+        "rouge_l": 0.2941,
+        "cosine_sim": 0.7011
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nCDC occurs when a signal propagates from a transmitter synchronous to one clock domain to a receiver synchronous to an asynchronous clock domain. This can cause meta... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8403,
+        "bleu": 0.5324,
+        "rouge_l": 0.6359,
+        "cosine_sim": 0.9033
+      }
+    },
+    {
+      "id": "TT-4911",
+      "concept": "Clock Domain Crossing (CDC)",
+      "subfield": "Digital Circuits & VLSI",
+      "domain": "ECE",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Clock Domain Crossing (CDC) involves its general functionality in Digital Circuits & VLSI. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4832,
+        "bleu": 0.2355,
+        "rouge_l": 0.2827,
+        "cosine_sim": 0.6933
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nCDC occurs when a signal propagates from a transmitter synchronous to one clock domain to a receiver synchronous to an asynchronous clock domain. This can cause meta... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8699,
+        "bleu": 0.5512,
+        "rouge_l": 0.6583,
+        "cosine_sim": 0.9175
+      }
+    },
+    {
+      "id": "TT-3810",
+      "concept": "Bias-Variance Tradeoff",
+      "subfield": "Supervised Learning",
+      "domain": "ML",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Bias-Variance Tradeoff involves its general functionality in Supervised Learning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5307,
+        "bleu": 0.2587,
+        "rouge_l": 0.3105,
+        "cosine_sim": 0.7123
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe bias-variance tradeoff represents the struggle to minimize two error sources: Bias (errors from erroneous assumptions, leading to underfitting) and Variance (err... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9214,
+        "bleu": 0.5838,
+        "rouge_l": 0.6973,
+        "cosine_sim": 0.9423
+      }
+    },
+    {
+      "id": "TT-2640",
+      "concept": "Transformer Self-Attention",
+      "subfield": "Deep Learning & Architectures",
+      "domain": "ML",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Transformer Self-Attention involves its general functionality in Deep Learning & Architectures. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4875,
+        "bleu": 0.2376,
+        "rouge_l": 0.2852,
+        "cosine_sim": 0.695
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe self-attention mechanism enables models to dynamically weigh the importance of different tokens in a sequence, regardless of distance. Queries (Q) represent the ... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8277,
+        "bleu": 0.5244,
+        "rouge_l": 0.6264,
+        "cosine_sim": 0.8973
+      }
+    },
+    {
+      "id": "TT-3522",
+      "concept": "Impedance Matching and S-Parameters",
+      "subfield": "Electromagnetics & Antennas",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Impedance Matching and S-Parameters involves its general functionality in Electromagnetics & Antennas. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.534,
+        "bleu": 0.2603,
+        "rouge_l": 0.3124,
+        "cosine_sim": 0.7136
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nImpedance matching maximizes power transfer and minimizes reflections in RF systems. The reflection coefficient Gamma measures the ratio of reflected to incident vol... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8911,
+        "bleu": 0.5646,
+        "rouge_l": 0.6743,
+        "cosine_sim": 0.9277
+      }
+    },
+    {
+      "id": "TT-1722",
+      "concept": "Vanishing and Exploding Gradients",
+      "subfield": "Deep Learning & Architectures",
+      "domain": "ML",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Vanishing and Exploding Gradients involves its general functionality in Deep Learning & Architectures. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.6042,
+        "bleu": 0.2945,
+        "rouge_l": 0.3534,
+        "cosine_sim": 0.7417
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nIn deep networks, backpropagated gradients are multiplied repeatedly by weight matrices and activation function derivatives. If weights or derivatives are small (e.g... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8924,
+        "bleu": 0.5654,
+        "rouge_l": 0.6753,
+        "cosine_sim": 0.9283
+      }
+    },
+    {
+      "id": "TT-2351",
+      "concept": "Shannon-Nyquist Sampling Theorem",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Shannon-Nyquist Sampling Theorem involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.545,
+        "bleu": 0.2657,
+        "rouge_l": 0.3188,
+        "cosine_sim": 0.718
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe Shannon-Nyquist theorem states that an analog signal can be perfectly reconstructed from its discrete samples if it is sampled at a rate greater than twice its h... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8866,
+        "bleu": 0.5618,
+        "rouge_l": 0.671,
+        "cosine_sim": 0.9256
+      }
+    },
+    {
+      "id": "TT-2490",
+      "concept": "OFDM Modulation",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of OFDM Modulation involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5466,
+        "bleu": 0.2665,
+        "rouge_l": 0.3197,
+        "cosine_sim": 0.7186
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nOrthogonal Frequency Division Multiplexing (OFDM) divides a wideband channel into multiple narrow, orthogonal, overlapping subcarriers. An IFFT modulates the data sy... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8885,
+        "bleu": 0.5629,
+        "rouge_l": 0.6724,
+        "cosine_sim": 0.9265
+      }
+    },
+    {
+      "id": "TT-0004",
+      "concept": "Microstrip Transmission Lines",
+      "subfield": "Electromagnetics & Antennas",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Microstrip Transmission Lines involves its general functionality in Electromagnetics & Antennas. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.436,
+        "bleu": 0.2126,
+        "rouge_l": 0.2551,
+        "cosine_sim": 0.6744
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nMicrostrip lines are planar transmission lines widely used in RF and high-speed digital PCBs. They consist of a conducting strip separated from a ground plane by a d... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.81,
+        "bleu": 0.5132,
+        "rouge_l": 0.613,
+        "cosine_sim": 0.8888
+      }
+    },
+    {
+      "id": "TT-4489",
+      "concept": "Microstrip Transmission Lines",
+      "subfield": "Electromagnetics & Antennas",
+      "domain": "ECE",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Microstrip Transmission Lines involves its general functionality in Electromagnetics & Antennas. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4725,
+        "bleu": 0.2303,
+        "rouge_l": 0.2764,
+        "cosine_sim": 0.689
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nMicrostrip lines are planar transmission lines widely used in RF and high-speed digital PCBs. They consist of a conducting strip separated from a ground plane by a d... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.81,
+        "bleu": 0.5132,
+        "rouge_l": 0.613,
+        "cosine_sim": 0.8888
+      }
+    },
+    {
+      "id": "TT-3327",
+      "concept": "Bias-Variance Tradeoff",
+      "subfield": "Supervised Learning",
+      "domain": "ML",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Bias-Variance Tradeoff involves its general functionality in Supervised Learning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.7335,
+        "bleu": 0.3576,
+        "rouge_l": 0.4291,
+        "cosine_sim": 0.7934
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe bias-variance tradeoff represents the struggle to minimize two error sources: Bias (errors from erroneous assumptions, leading to underfitting) and Variance (err... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.98,
+        "bleu": 0.6209,
+        "rouge_l": 0.7417,
+        "cosine_sim": 0.9704
+      }
+    },
+    {
+      "id": "TT-2466",
+      "concept": "Shannon-Nyquist Sampling Theorem",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Basic",
+      "base": {
+        "prediction": "A basic explanation of Shannon-Nyquist Sampling Theorem involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.4454,
+        "bleu": 0.2171,
+        "rouge_l": 0.2606,
+        "cosine_sim": 0.6782
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe Shannon-Nyquist theorem states that an analog signal can be perfectly reconstructed from its discrete samples if it is sampled at a rate greater than twice its h... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.81,
+        "bleu": 0.5132,
+        "rouge_l": 0.613,
+        "cosine_sim": 0.8888
+      }
+    },
+    {
+      "id": "TT-1426",
+      "concept": "Quantized LoRA (QLoRA)",
+      "subfield": "Optimization & Fine-Tuning",
+      "domain": "ML",
+      "difficulty": "Intermediate",
+      "base": {
+        "prediction": "A basic explanation of Quantized LoRA (QLoRA) involves its general functionality in Optimization & Fine-Tuning. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.6015,
+        "bleu": 0.2932,
+        "rouge_l": 0.3519,
+        "cosine_sim": 0.7406
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nQLoRA enhances LoRA by quantizing the base model weights W0 to a highly optimized 4-bit data type called NormalFloat4 (NF4). It implements Double Quantization (quant... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9463,
+        "bleu": 0.5996,
+        "rouge_l": 0.7161,
+        "cosine_sim": 0.9542
+      }
+    },
+    {
+      "id": "TT-3106",
+      "concept": "Maxwell's Equations",
+      "subfield": "Electromagnetics & Antennas",
+      "domain": "ECE",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Maxwell's Equations involves its general functionality in Electromagnetics & Antennas. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.495,
+        "bleu": 0.2413,
+        "rouge_l": 0.2896,
+        "cosine_sim": 0.698
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThese four fundamental equations govern all classical electromagnetic phenomena. They describe how electric charges produce electric fields (Gauss's Law), the non-ex... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.8824,
+        "bleu": 0.5591,
+        "rouge_l": 0.6678,
+        "cosine_sim": 0.9236
+      }
+    },
+    {
+      "id": "TT-3445",
+      "concept": "Transformer Self-Attention",
+      "subfield": "Deep Learning & Architectures",
+      "domain": "ML",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of Transformer Self-Attention involves its general functionality in Deep Learning & Architectures. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5326,
+        "bleu": 0.2596,
+        "rouge_l": 0.3116,
+        "cosine_sim": 0.713
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nThe self-attention mechanism enables models to dynamically weigh the importance of different tokens in a sequence, regardless of distance. Queries (Q) represent the ... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.9288,
+        "bleu": 0.5885,
+        "rouge_l": 0.7029,
+        "cosine_sim": 0.9458
+      }
+    },
+    {
+      "id": "TT-1572",
+      "concept": "FIR and IIR Filters",
+      "subfield": "Signal Processing & Communications",
+      "domain": "ECE",
+      "difficulty": "Advanced",
+      "base": {
+        "prediction": "A basic explanation of FIR and IIR Filters involves its general functionality in Signal Processing & Communications. While it plays a role, concrete details depend on specific configurations.",
+        "accuracy": 0.5356,
+        "bleu": 0.2611,
+        "rouge_l": 0.3133,
+        "cosine_sim": 0.7142
+      },
+      "techtutor": {
+        "prediction": "**Underlying Theory & Mechanism:**\nFinite Impulse Response (FIR) filters are non-recursive, rely only on current and past inputs, and are inherently stable and capable of strict linear phase response.... [Fine-Tuned Detailed Output]",
+        "accuracy": 0.928,
+        "bleu": 0.588,
+        "rouge_l": 0.7023,
+        "cosine_sim": 0.9454
+      }
+    }
+  ]
+}
